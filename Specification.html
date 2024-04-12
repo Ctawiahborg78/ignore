@@ -1,0 +1,141 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Specification</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="Bean.jpg" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-close" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT US</a></li>
+            <li><a href="Specification.html">SPECIFCATION</a></li>
+            <li><a href="Employee.html"> EMPLOYEE <a/></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="application.html">APPLICATION</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Job Specification</h1>
+    </section>
+
+    <!---------- Specification Content ---------->
+    
+    <div class="content">
+      <h2 style="color:black; text-decoration:underline;">Job Title: Web Developer</h2>
+      <h3 style="color:black;">Location: Virtual</h3>
+      <h3 style="color:black;">Type: Full-time</h3>
+    
+      <h2 style="color:black;">Job Description</h2>
+      <p style="color:black;">
+        Hot Beans Web is a web development company with a passion for creating innovative and intuitive web solutions.
+        We're looking for a talented and enthusiastic web developer to join our team. You will be responsible for developing and maintaining websites for our clients in this role. You will work closely with our project managers and
+        designers to ensure that our websites are delivered on time and to the highest quality.
+      </p>
+    
+      <h2 style="color:black;">Responsibilities:</h2>
+      <ul>
+        <li style="color:black;">Design and develop high-quality websites using HTML, CSS, JavaScript, and other web development languages and frameworks</li>
+        <li style="color:black;">Collaborate with project managers and designers to ensure that websites meet client requirements and are delivered on time</li>
+        <li style="color:black;">Troubleshoot and debug web development issues as needed</li>
+        <li style="color:black;">Stay up-to-date with</li>
+      </ul>
+      <h2 style="color:black;">Qualifications:</h2>
+      <ul>
+        <li style="color:black;">Bachelor's degree in Computer Science or related field, or equivalent experience</li>
+        <li style="color:black;">Strong knowledge of HTML, CSS, and JavaScript</li>
+        <li style="color:black;">Experience with other web development languages and frameworks such as PHP, MySQL, and AngularJS</li>
+        <li style="color:black;">Excellent communication and problem-solving skills</li>
+        <li style="color:black;">Ability to work independently and collaboratively</li>
+        <li style="color:black;">Strong attention to detail and ability to meet deadlines</li>
+      </ul>
+    
+      <h2 style="color:black;">Benefits</h2>
+      <ul>
+        <li style="color:black;">Competitive salary and benefits package</li>
+        <li style="color:black;">Flexible work schedule</li>
+        <li style="color:black;">Opportunities for growth and development within the company</li>
+      </ul>
+    <br>
+      <h2 style="color:black;">To Apply</h2>
+      <p style="color:black;">
+        If you are interested in joining our team as a web developer, please click the link below to fill out our
+        online application form. We anticipate receiving your application and perhaps extending an invitation to you to join our team.
+      </p>
+      <a href="application.html">
+        <button style="color:black; background-color:white; padding:10px 20px; border-radius:5px; cursor:pointer;">Application Form</button>
+      </a>
+      
+    </div>
+    
+   
+
+    <div class="container">
+      <h3>Leave a comment</h3>
+      <div class="comment-box">
+        <form class="comment-form">
+          <input type="text" placeholder="Enter Name" />
+          <input type="email" placeholder="Enter email" />
+          <textarea rows="5" placeholder="Your Comment"></textarea>
+          <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+        </form>
+      </div>
+    </div>
+    
+
+       
+    <!-------- footer ---------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+          Hot Beans Web is a web development company that is passionate about creating innovative and user-friendly web solutions. We believe in designing websites that are not only visually appealing but also simple to use and navigate. Our experienced web development team is dedicated to providing the highest level of service to our clients and ensuring that their websites reach their full potential. We are always on the lookout for new and talented web developers to join our team and assist us in providing quality solutions.
+        </p>
+        <p style="text-align: center;">
+          Follow us on social media:
+          <a href="https://twitter.com/hotbeansweb" target="_blank"
+            ><img src="twitter.png" alt="Twitter" style="width: 25px;"
+          /></a>
+    
+          <a href="https://www.facebook.com/hotbeansweb" target="_blank"
+            ><img src="facebook.png" alt="Facebook" style="width: 25px;"
+          /></a>
+    
+          <a href="https://www.instagram.com/hotbeansweb" target="_blank"
+            ><img src="Instagram.png" alt="Instagram" style="width: 35px;"
+          /></a>
+        </p>
+        <div class="copyright">
+          <p>
+            Copyright &copy; 2023 Hotbeansweb. All Rights Reserved.
+          </p>
+      </section>
+
+    <!----JavaScript for toggle menu---->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
